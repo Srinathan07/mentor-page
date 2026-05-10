@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="bg-gradient-to-r from-[#fdecec] to-[#f9fafb]">
+    <div className="bg-linear-to-r from-[#fdecec] to-[#f9fafb]">
 
       {/* HEADER */}
       <header className="bg-white shadow-md p-5 sticky top-0 z-50 lg:px-24">
@@ -190,7 +190,7 @@ function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
 
             <div className="bg-white rounded-xl shadow-sm hover:shadow-lg transition overflow-hidden">
-              <div className="bg-gradient-to-r from-red-500 to-red-400 h-32 flex items-center justify-center text-3xl text-white">🌐</div>
+              <div className="bg-linear-to-r from-red-500 to-red-400 h-32 flex items-center justify-center text-3xl text-white">🌐</div>
               <div className="p-6">
                 <span className="text-xs bg-red-100 text-red-500 px-2 py-1 rounded-full font-semibold">Beginner</span>
                 <h3 className="font-semibold text-lg mt-3">HTML & CSS Mastery</h3>
@@ -205,7 +205,7 @@ function Home() {
             </div>
 
             <div className="bg-white rounded-xl shadow-sm hover:shadow-lg transition overflow-hidden">
-              <div className="bg-gradient-to-r from-yellow-400 to-orange-400 h-32 flex items-center justify-center text-3xl text-white">⚡</div>
+              <div className="bg-linear-to-r from-yellow-400 to-orange-400 h-32 flex items-center justify-center text-3xl text-white">⚡</div>
               <div className="p-6">
                 <span className="text-xs bg-yellow-100 text-yellow-600 px-2 py-1 rounded-full font-semibold">Intermediate</span>
                 <h3 className="font-semibold text-lg mt-3">JavaScript Essentials</h3>
@@ -220,7 +220,7 @@ function Home() {
             </div>
 
             <div className="bg-white rounded-xl shadow-sm hover:shadow-lg transition overflow-hidden">
-              <div className="bg-gradient-to-r from-purple-500 to-indigo-500 h-32 flex items-center justify-center text-3xl text-white">⚛️</div>
+              <div className="bg-linear-to-r from-purple-500 to-indigo-500 h-32 flex items-center justify-center text-3xl text-white">⚛️</div>
               <div className="p-6">
                 <span className="text-xs bg-purple-100 text-purple-600 px-2 py-1 rounded-full font-semibold">Advanced</span>
                 <h3 className="font-semibold text-lg mt-3">React + Node Full Stack</h3>
